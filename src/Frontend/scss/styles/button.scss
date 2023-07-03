@@ -1,0 +1,109 @@
+.btn-primary-2 {
+    position: relative;
+    padding: 0 10px;
+    background-color: $yellow;
+    height: 34px;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: $bold;
+    color: black;
+    font-size: 13px;
+    transition: all ease-in-out 0.3s;
+    margin-right: 10px;
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            color: white;
+           text-decoration: none;
+
+        }
+    }
+
+    &:hover {
+        background-color: $yellow;
+        color: white;
+    }
+
+    &:before {
+        content: "";
+        background: url('../../../public/img/btn-bg.png');
+        position: absolute;
+        left: -16px;
+        height: 34px;
+        background-size: 100%;
+        width: 17px;
+        top: 0;
+    }
+
+    &:after {
+        content: "";
+        background: url('../../../public/img/btn-bg-b.png');
+        position: absolute;
+        right: -16px;
+        height: 34px;
+        background-size: 100%;
+        width: 17px;
+        top: 0;
+    }
+
+    &.btn-primary {
+        background-color: $yellow;
+        border-color: $yellow;
+        ;
+    }
+
+    &.mr-l {
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+
+    &.white-btn {
+        background-color: white;
+
+        &:before {
+            background: url('../../../public/img/btn-bg-white.png');
+        }
+
+        &:after {
+            background: url('../../../public/img/btn-bg-b-white.png');
+            background-size: 100%;
+            width: 18px;
+            height: 34px;
+        }
+
+        &:hover {
+            background-color: white;
+            color: $yellow;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            &:hover{
+                color: $yellow;
+               text-decoration: none;
+    
+            }
+        }
+    }
+}
+
+.sign-btn {
+    font-size: 13px;
+    color: $yellow;
+    text-transform: uppercase;
+    font-family: $bold;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        color: white;
+    }
+
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    background-color: $yellow;
+
+}

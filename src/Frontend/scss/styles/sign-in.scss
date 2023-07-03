@@ -1,0 +1,170 @@
+.login-page{
+    padding-bottom: 100px;
+    padding-top: 120px;
+    @media (max-width: $width-576) {
+        padding-bottom: 60px;
+        padding-top: 80px;
+    }
+
+    .Quickly-login {
+        border-radius:8px;
+        background-color: #000;
+        max-width: 570px;
+        margin: 0 auto;
+        padding: 30px 50px;
+        @media (max-width: $width-576) {
+            max-width: 95%;
+            padding: 20px 20px;
+        }
+    }
+    
+    .logo-login{
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-family: $bold;
+        text-transform: uppercase;
+        font-size:26px;
+        color:$yellow;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .Quickly-login label {
+          text-transform: uppercase;
+          font-family: $regular;
+          color:white;
+          padding-bottom: 10px;
+    }
+    
+    .Quickly-login input[type="text"], .Quickly-login input[type="email"],.Quickly-login input[type="password"],.Quickly-login select{
+
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #cedaf3;
+        background-color: #000;
+        color: white;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 0 15px;
+    }
+
+.country-select input{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #cedaf3;
+    background-color: #000;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 0 15px;
+}
+
+
+
+    .Quickly-login .password {
+        position: relative;
+        margin-top: 40px;
+    }
+    .fade.alert.alert-danger.show {
+        background: #000;
+        color: red;
+        border: solid 1px #ccc;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        p{
+            color:$yellow;
+        }
+    }
+    .alert-heading {
+        color: inherit;
+        margin: 0 10px 0 0;
+    }
+    .sign-up-button {
+     
+        margin: 30px auto 0 auto;
+        text-align: center;
+    }
+    .forget-link a {
+        font-size:13px;
+        text-transform: uppercase;
+        color:white;
+        text-decoration: underline;
+        padding-top: 10px;
+        &:hover{
+            color:$yellow;
+            text-decoration: none;
+        }
+  
+    }
+    .sign-up-button button {
+        position: relative;
+        padding: 0 10px;
+        background-color: $yellow;
+        height: 34px;
+        border: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-family: $bold;
+        color: black;
+        font-size: 14px;
+        transition: all ease-in-out 0.3s;
+        margin-right: 10px;
+        min-width: 110px;
+        margin: 0 auto;
+    
+        &:hover {
+            background-color: $yellow;
+            color: white;
+        }
+    
+        &:before {
+            content: "";
+            background: url('../../../public/img/btn-bg.png');
+            position: absolute;
+            left: -16px;
+            height: 34px;
+            background-size: 100%;
+            width: 17px;
+            top: 0;
+        }
+    
+        &:after {
+            content: "";
+            background: url('../../../public/img/btn-bg-b.png');
+            position: absolute;
+            right: -16px;
+            height: 34px;
+            background-size: 100%;
+            width: 17px;
+            top: 0;
+        }
+    
+    }
+    
+    .Quickly-login select {
+        heigfkht: 50px;
+        border-radius: 5px;
+        border: 1px solid #cedaf3;
+        background-color: transparent;
+        color: #6e6f72;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    
+
+}

@@ -1,0 +1,97 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 30px 0;
+
+    @media (max-width: 767px) {
+        padding: 50px 0;
+    }
+
+    .footer-content {
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+
+        @media (max-width: 767px) {
+            flex-direction: column-reverse;
+        }
+
+        .footer-list {
+            width: calc(100%);
+            margin-bottom: 30px;
+
+            &:first-child {
+                margin-bottom: 0;
+            }
+
+            @media (min-width: 767px) {
+                width: calc(100% / 3);
+                padding-right: 10px;
+                margin-bottom: 0;
+            }
+
+            .footer-logo {
+                max-width: 150px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: normal;
+                opacity: .6;
+                font-style: italic;
+            }
+
+            h4 {
+                text-transform: uppercase;
+                font-family: $regular;
+                font-size: 14px;
+                color: white;
+                margin-bottom: 20px;
+
+            }
+
+            ul {
+                li {
+                    padding: 0 0 10px 0;
+
+                    a {
+                        font-size: 13px;
+                        color: white;
+                        opacity: .6;
+                        font-style: italic;
+
+                        &:hover {
+                            color: $yellow;
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                &.social {
+                    display: flex;
+
+                    li {
+                        a {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            border: Solid 2px $yellow;
+                            margin-right: 15px;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        img {
+                            max-width: 18px;
+                            max-height: 18px;
+                            position: relative;
+                            // top:4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

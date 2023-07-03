@@ -1,0 +1,396 @@
+/* dashboard */
+.dashboard-button {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    background-color: #161b19;
+    border-color: #162c5d;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.dashboard-button i {
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+/* header */
+.js--bolder-font {
+    font-weight: bold !important;
+    color: black !important;
+    font-size: large !important;
+}
+
+.js--font-color {
+    color: black !important;
+    padding-left: 0px !important;
+}
+
+.js--font-alignment {
+    padding-left: 0px !important;
+}
+
+.js--image {
+    width: 70% !important;
+}
+
+
+
+.text-justify {
+    text-align: justify !important;
+}
+
+
+
+
+.js--contact-us-font {
+    font-size: 20px !important;
+}
+
+.js--image-padding img {
+    width: 100% !important;
+}
+
+.beforehand-text-about-us h2 {
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.beforehand-text-about-us h3 {
+    color: #161616;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.beforehand-text-about-us p {
+    color: #161616;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 34px;
+}
+
+.padding-right img {
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
+    width: 90% !important;
+}
+
+.image-size img {
+    width: 100% !important;
+    height: 125px !important;
+}
+
+.js--title {
+    font-size: 38px !important;
+}
+
+/* services page */
+.services-title {
+    padding: 1rem;
+    padding-left: 0 !important;
+    background-color: #6FA8DC;
+    color: #ffffff;
+}
+
+.services-sub-title {
+    padding: 1rem;
+    padding-left: 0 !important;
+}
+
+.services h3 {
+    color: #161616;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.services h2 {
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.services p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+}
+
+.after-financial-gating-solution-image-1 {
+    color: #fff;
+    font-family: Roboto;
+    /*font-size: 16px;*/
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 34px;
+    background-color: #CFE2FB;
+}
+
+.js--button {
+    background-color: #2B78E4 !important;
+}
+
+.after-financial-gating-solution-image {
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.product-formulation-text-end {
+    font-size: 23px !important;
+}
+
+.section-end {
+    border-bottom: 2px solid #000000;
+    border-right: 0;
+    padding-bottom: 30px;
+}
+
+.js--services-title h2 {
+    padding-left: 2rem;
+    font-size: 38px !important;
+    margin-bottom: 0 !important;
+}
+
+img.js--services-image {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+/*pain-points page*/
+.js--section-1 img {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.js--section-1 a {
+    font-size: 23px !important;
+}
+
+.js--section-2 img {
+    width: 100%;
+}
+
+.js--marketing-messages img {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+img.js--true-agile {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 1rem;
+}
+
+img.js--true-agile-pain-points {
+    padding-left: 2rem;
+    padding-right: 6rem;
+}
+
+img.marketing-messages-img {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+}
+
+img.js--section-image-2 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+img.js--image-1 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+img.js--image-2 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+img.js--image-4 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0;
+}
+
+img.js--image-5 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+}
+
+img.js--image-7 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+img.js--image-8 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+img.js--image-9 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+img.js--image-10 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.js--marketing-messages-center {
+    text-align: center !important;
+}
+
+/*role page*/
+img.js--roles-image {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+}
+
+img.js--roles-image-2 {
+    height: 48%;
+    padding: 1rem;
+}
+
+.roles-page li {
+    line-height: 2.4rem !important;
+}
+
+@media screen and (min-device-width: 250px) and (max-device-width: 319px) {
+    /*services page*/
+    img.js--true-agile {
+        padding-bottom: 1rem !important;
+    }
+
+    img.marketing-messages-img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--services-image {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /*pain-point page*/
+    .js--marketing-messages img {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    img.js--true-agile-pain-points {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    img.js--section-image-2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    img.js--image-5 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-7 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-8 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-9 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img.js--image-10 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .after-financial-gating-solution-image {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .marketing-messages-resonate img {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /*roles page*/
+    img.js--roles-image {
+        padding: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100%;
+    }
+
+    img.js--roles-image-2 {
+        padding: 1rem;
+        height: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}
+
+.fade{
+    z-index: 9;
+}
+
+

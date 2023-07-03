@@ -1,0 +1,309 @@
+// typography
+.container {
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: $width-991) {
+        padding: 0 15px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: $bold;
+
+    a {
+        color: inherit;
+    }
+}
+
+p {
+    font-family: $regular;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: $regular;
+    font-size: 40px;
+    color: white;
+
+    @media (max-width: $width-576) {
+        font-size: 28px;
+    }
+
+    span {
+        display: block;
+        font-family: $bold;
+        color: $yellow;
+        text-transform: uppercase;
+    }
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    text-align: center;
+
+    h2 {
+        position: relative;
+        font-size: 21px;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+
+        @media (min-width: $width-576) {
+            font-size: 30px;
+        }
+
+        &:after {
+            content: "";
+            background-color: $yellow;
+            width: 100px;
+            height: 3px;
+            border-radius: 3px;
+            position: absolute;
+            bottom: -8px;
+            transform: translate(-50%, 0%);
+            left: 50%;
+        }
+
+    }
+
+    p {
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+.heading-left {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    text-align: left;
+
+    h2 {
+        position: relative;
+        font-size: 21px;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 8px;
+
+        @media (min-width: $width-576) {
+            font-size: 26px;
+        }
+
+        &:after {
+            content: "";
+            background: url('../../../public/img/heading-icon.png');
+            width: 42px;
+            background-size: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 37px;
+            background-repeat: no-repeat;
+        }
+
+    }
+
+    p {
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+.heading-inner-pages {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+
+    p {
+        font-size: 15px;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 21px;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+        font-family: $bold;
+
+        @media (min-width: $width-576) {
+            font-size: 30px;
+        }
+
+        span {
+            color: $yellow;
+            display: inline-block;
+        }
+
+        &:after {
+            content: "";
+            background-color: $yellow;
+            width: 70px;
+            height: 3px;
+            border-radius: 3px;
+            position: absolute;
+            bottom: -8px;
+            left: 10px;
+        }
+
+        &.innr-heading {
+            &:after {
+                left: 0;
+            }
+
+        }
+
+    }
+
+    p {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+}
+
+.arrow-left-bg {
+    width: 0;
+    height: 0;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+    border-left: 300px solid rgba(97, 94, 36, 0.1);
+    position: absolute;
+    left: 0;
+    top: 300vh;
+    z-index: 0;
+
+    @media (min-width: $width-576) {
+        top: 250vh;
+        border-top: 400px solid transparent;
+        border-bottom: 400px solid transparent;
+        border-left: 580px solid rgba(97, 94, 36, 0.1);
+    }
+
+    @media (min-width: $width-1200) {
+        top: 200vh;
+        border-top: 630px solid transparent;
+        border-bottom: 630px solid transparent;
+        border-left: 1100px solid rgba(97, 94, 36, 0.1);
+    }
+
+    &.about-bg {
+        width: 0;
+        height: 0;
+        border-top: 300px solid transparent;
+        border-bottom: 300px solid transparent;
+        border-left: 300px solid rgba(97, 94, 36, 0.1);
+        position: absolute;
+        left: 0;
+        top: 100vh;
+        z-index: 0;
+
+        @media (min-width: $width-576) {
+            top: 30vh;
+            border-top: 400px solid transparent;
+            border-bottom: 400px solid transparent;
+            border-left: 580px solid rgba(97, 94, 36, 0.1);
+        }
+
+        @media (min-width: $width-1200) {
+            top: 30vh;
+            border-top: 450px solid transparent;
+            border-bottom: 450px solid transparent;
+            border-left: 900px solid rgba(97, 94, 36, 0.1);
+        }
+    }
+
+    &.contact-bg {
+        width: 0;
+        height: 0;
+        border-top: 230px solid transparent;
+        border-bottom: 230px solid transparent;
+        border-left: 300px solid rgba(97, 94, 36, 0.1);
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        z-index: 0;
+
+        @media (min-width: $width-576) {
+            top: 10vh;
+            border-top: 300px solid transparent;
+            border-bottom: 300px solid transparent;
+            border-left: 580px solid rgba(97, 94, 36, 0.1);
+        }
+
+        @media (min-width: $width-1200) {
+            top: 12vh;
+            border-top: 400px solid transparent;
+            border-bottom: 400px solid transparent;
+            border-left: 900px solid rgba(97, 94, 36, 0.1);
+        }
+    }
+
+}
+
+.arrow-right-bg {
+    width: 0;
+    height: 0;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+    border-right: 300px solid rgba(97, 94, 36, 0.1);
+    position: absolute;
+    right: 0;
+    top: 590vh;
+    z-index: 0;
+
+    @media (min-width: $width-576) {
+        top: 485vh;
+        border-top: 400px solid transparent;
+        border-bottom: 400px solid transparent;
+        border-right: 500px solid rgba(97, 94, 36, 0.1);
+    }
+
+    @media (min-width: $width-1200) {
+        top: 465vh;
+        border-top: 630px solid transparent;
+        border-bottom: 630px solid transparent;
+        border-right: 1100px solid rgba(97, 94, 36, 0.1);
+    }
+
+    &.about-bg {
+        width: 0;
+        height: 0;
+        border-top: 300px solid transparent;
+        border-bottom: 300px solid transparent;
+        border-right: 300px solid rgba(97, 94, 36, 0.1);
+        position: absolute;
+        right: 0;
+        top: 270vh;
+        z-index: 0;
+
+        @media (min-width: $width-576) {
+            top: 230vh;
+            border-top: 400px solid transparent;
+            border-bottom: 400px solid transparent;
+            border-right: 500px solid rgba(97, 94, 36, 0.1);
+        }
+
+        @media (min-width: $width-1200) {
+            top: 150vh;
+            border-top: 450px solid transparent;
+            border-bottom: 450px solid transparent;
+            border-right: 900px solid rgba(97, 94, 36, 0.1);
+        }
+    }
+
+}

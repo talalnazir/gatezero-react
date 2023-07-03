@@ -1,0 +1,124 @@
+// Fonts
+$regular: 'dm_sansregular', sans-serif;
+$medium: 'dm_sansmedium', sans-serif;
+$bold: 'dm_sansbold', sans-serif;
+
+// Brand colors
+$bg: #161b19;
+$blue: #00417a;
+$base-color: #fff;
+$yellow: #ffd866;
+$nav-bg: #1e2221;
+
+
+
+//sizes
+$base-size: 14px;
+$base-line-height: normal;
+
+
+$width-1400: 1400px;
+$width-1200: 1200px;
+$width-991: 991px;
+$width-576: 576px;
+
+$top-spce: 140px;
+$top-spce-smll: 70px;
+$top-inner-spce: 100px;
+
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: $base-color;
+    font-family: $regular;
+    font-size: $base-size;
+    line-height: $base-line-height;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-shadow: rgba(255, 255, 255, 0.01) 0 0 1px;
+    text-shadow: rgba(255, 255, 255, 0.01) 0 0 1px;
+    background: $bg;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+
+    a {
+        color: inherit;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    // @include transition(all 0.2s linear);
+
+    &:active,
+    &:focus,
+    &:hover {
+        outline: 0;
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+    }
+}
+
+:focus {
+    outline: 0;
+}
+
+img,
+picture {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+        list-style-type: none;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.global-wrapper {
+    width: 100%;
+    float: left;
+}
+
